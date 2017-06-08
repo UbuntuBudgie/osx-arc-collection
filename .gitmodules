@@ -1,0 +1,15 @@
+[submodule "osx-arc-white"]
+	path = osx-arc-white
+	url = git://github.com/linxgem33/osx-arc-white
+[submodule "osx-arc-darker"]
+	path = osx-arc-darker
+	url = git://github.com/linxgem33/osx-arc-darker
+[submodule "osx-arc-shadow"]
+	path = osx-arc-shadow
+	url = git://github.com/linxgem33/osx-arc-shadow
+[submodule "osx-arc-plus"]
+	path = osx-arc-plus
+	url = git://github.com/linxgem33/osx-arc-plus
+[submodule "arc-osx-icons"]
+	path = arc-osx-icons
+	url = git://github.com/linxgem33/arc-osx-icons
