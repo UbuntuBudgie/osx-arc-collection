@@ -1,0 +1,25 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: osx-arc-collection
+Source: https://github.com/UbuntuBudgie/osx-arc-collection
+
+Files: *
+Copyright: 2016-2017, horst3180 <email address hidden>
+License: GPL-3+
+
+Files: osx*
+ arc-osx-icons
+Copyright: linxgem33 <email@unknown>
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2017, David Mohammed <fossfreedom@ubuntu.com>
+License: GPL-3+
+
+License: GPL-3+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; Version 3, 29 June 2007.
+ .
+ On Debian systems, the complete text of version 3 of the GNU General
+ Public License can be found in '/usr/share/common-licenses/GPL-3'.
+

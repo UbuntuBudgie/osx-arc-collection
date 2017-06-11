@@ -1,0 +1,25 @@
+#! /usr/bin/make -f
+
+%:
+	dh $@
+	
+override_dh_auto_clean:
+	rm -rf debian/osx-arc-white
+	rm -rf debian/osx-arc-darker
+	rm -rf debian/osx-arc-shadow
+	rm -rf debian/osx-arc-plus
+	rm -rf debian/arc-osx-icon-theme
+	
+
+override_dh_auto_install:
+	mkdir -p debian/osx-arc-white
+	mkdir -p debian/osx-arc-darker
+	mkdir -p debian/osx-arc-shadow
+	mkdir -p debian/osx-arc-plus
+	mkdir -p debian/arc-osx-icon-theme
+	dh_auto_install
+
+override_dh_fixperms:
+	dh_fixperms
+	find debian -name '*.png' -exec chmod 0644 {} +
+	find debian -name '*.svg' -exec chmod 0644 {} +
